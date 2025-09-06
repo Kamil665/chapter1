@@ -1,11 +1,14 @@
-#include <iostream>
-using namespace std;
+using System;
 
-int main() {
-int A = 50;
-int B = 10;
+class Program
+{
+    static void Main()
+    {
+        int A = 50;
+        int B = 10;
 
-cout << A << endl;
-cout << B << endl;
+        Console.WriteLine(A);
+        Console.WriteLine(B);
+    }
 }
 
