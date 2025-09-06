@@ -4,8 +4,8 @@ class Program
 {
     static void Main()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8; // Для корректного вывода русских символов
-        Console.InputEncoding = System.Text.Encoding.UTF8;  // Для корректного ввода (если нужно)
+        Console.OutputEncoding = System.Text.Encoding.UTF8; 
+        Console.InputEncoding = System.Text.Encoding.UTF8;  
 
         Console.Write("Введите число: ");
         string input = Console.ReadLine();
