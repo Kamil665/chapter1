@@ -6,7 +6,7 @@ class Program
 
     static void Main()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8; // Для корректного вывода русских символов
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine("Число пи равно " + PI);
     }
 }
