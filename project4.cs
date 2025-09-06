@@ -4,7 +4,6 @@ class Program
 {
     static void Main()
     {
-        // Установка кодировки для корректного вывода русских символов в консоли
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.InputEncoding = System.Text.Encoding.UTF8;
 
