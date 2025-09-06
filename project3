@@ -1,10 +1,23 @@
-#include <iostream>
-using namespace std;
+using System;
 
-int main() {
-setlocale(LC_ALL, "RU");
-int num;
+class Program
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8; // Для корректного вывода русских символов
+        Console.InputEncoding = System.Text.Encoding.UTF8;  // Для корректного ввода (если нужно)
 
-cin >> num;
-cout << "Вы ввели число " << num << endl;
+        Console.Write("Введите число: ");
+        string input = Console.ReadLine();
+
+        if (int.TryParse(input, out int num))
+        {
+            Console.WriteLine("Вы ввели число " + num);
+        }
+        else
+        {
+            Console.WriteLine("Ошибка: введено не число.");
+        }
+    }
 }
+
