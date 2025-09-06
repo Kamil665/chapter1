@@ -1,7 +1,11 @@
-#define e 2.7
-#include <iostream>
-using namespace std;
+using System;
 
-int main() {
-cout << "e = " << e << endl;
+class Program
+{
+    const double e = 2.7;
+
+    static void Main()
+    {
+        Console.WriteLine("e = " + e);
+    }
 }
