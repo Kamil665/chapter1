@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int A = 7;
+int B = 15;
+int C = 100;
+
+cout << A << " " << B << " " << C << endl;
+}
