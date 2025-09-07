@@ -1,17 +1,12 @@
-using System;
+#include <iostream>
+using namespace std;
 
-class Program
-{
-    static void Main()
-    {
-        int A, B, C, D;
+int main() {
+int A;
+int B;
+int C;
+int D;
 
-        string[] inputs = Console.ReadLine().Split(' ');
-        A = int.Parse(inputs[0]);
-        B = int.Parse(inputs[1]);
-        C = int.Parse(inputs[2]);
-        D = int.Parse(inputs[3]);
-
-        Console.WriteLine($"{A} {B} {C} {D}");
-    }
+cin >> A >> B >> C >> D;
+cout << A << " " << B << " " << C << " " << D << endl;
 }
