@@ -7,5 +7,5 @@ int B;
 int C;
 
 cin >> A >> B >> C;
-cout << A << " " << B << " " << C << endl;
+cout << A << "  " << B << "   " << C << endl;
 }
