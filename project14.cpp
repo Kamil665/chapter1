@@ -5,7 +5,26 @@ using namespace std;
 int main() {
     int a, x, n, y, alpha, beta, b;
 
-    cin >> a >> x >> n >> y >> alpha >> beta >> b;
+     cout << "a = ";
+    cin >> a;
+
+    cout << "x = ";
+    cin >> x;
+
+    cout << "n = ";
+    cin >> n;
+
+    cout << "y = ";
+    cin >> y;
+
+    cout << "alpha = ";
+    cin >> alpha;
+
+    cout << "beta = ";
+    cin >> beta;
+
+    cout << "b = ";
+    cin >> b;
 
     cout << "\n";
     cout << "2x = " << 2 * x << endl;
