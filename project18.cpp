@@ -14,14 +14,14 @@ int main() {
     cout << "а) s = " << s1 << endl;
     
     // б)
-    int s2;
+    double s2;
     s2 = 6;
     s2 = -5.2 * s2;
     s2 = 0;
     cout << "б) s = " << s2 << endl;
     
     // в)
-    int s3;
+    double s3;
     s3 = -7.5;
     s3 = 2 * s3;
     cout << "в) s = " << s3 << endl;
