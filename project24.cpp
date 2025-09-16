@@ -16,7 +16,7 @@ int main() {
     int x1;
     cout << "Введите значение x: ";
     cin >> x1;
-    float y = sin((3.2 + sqrt(1 + x)) / abs(5 * x));
+    float y = sin((3.2 + sqrt(1 + x1)) / abs(5 * x1));
     cout << "б) y = sin((3.2 + sqrt(1 + x)) / |5x|) = " << y << endl;
     
     return 0;
