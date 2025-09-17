@@ -9,12 +9,12 @@ int main() {
 
   int volume = pow(cube, 3);
 
-  int square = 4 * pow(cube, 2);
+  int area = 4 * pow(cube, 2);
 
   cout << "\n";
 
   cout << "Объём куба: " << volume << endl;
-  cout << "Площадь боковой поверхности куба: " << square << endl;
+  cout << "Площадь боковой поверхности куба: " << area << endl;
 
   return 0;
 }
