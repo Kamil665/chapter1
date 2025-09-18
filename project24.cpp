@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     // а)
     int a;
     cout << "Введите значение a: ";
