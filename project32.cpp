@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     double m, V;
     cout << "Введите массу тела: ";
     cin >> m;
