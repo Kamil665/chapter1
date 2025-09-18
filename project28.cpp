@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+  setlocale(LC_ALL, "RU");
   int cube;
   cout << "Введите длину ребра куба: ";
   cin >> cube;
