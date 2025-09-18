@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     // а)
     float a1 = 5.8;
     float b1 = -7.9;
