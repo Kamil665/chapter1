@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU);
     double a, b;
     do {
     cout << "Введите значение a: ";
