@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     double quantity, area;
 
     cout << "Введите количество жителей в государстве: ";
