@@ -5,6 +5,7 @@ using namespace std;
 const double pi = 3.14;
 
 int main() {
+  setlocale(LC_ALL, "RU");
   int radius;
   cout << "Введите радиус окружности: ";
   cin >> radius;
