@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
+  setlocale(LC_ALL, "RU");
+  
   const double R = 6350.0;
   double height;
   char unit;
