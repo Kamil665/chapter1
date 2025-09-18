@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     // а)
     int s1 = 14;
     int k1 = -3;
