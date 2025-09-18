@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     double num1, num2;
     cout << "Введите два любых числа: ";
     cin >> num1 >> num2;
