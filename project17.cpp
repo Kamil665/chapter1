@@ -6,6 +6,7 @@ const float PI = 3.14;
 const float g = 9.8;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     double x1, x2, x3, v0, t, a, m, v, h, R1, R2, alpha, R, b, c, y, m1, m2, r, I, ci, d, x;
 
     cout << "x1 = ";
