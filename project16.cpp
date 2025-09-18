@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
     float a, b, c, x, R, d;
 
     cout << "a = ";
